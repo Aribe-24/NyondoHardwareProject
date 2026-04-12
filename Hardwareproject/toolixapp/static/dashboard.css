@@ -1,0 +1,168 @@
+body{
+    font-family: sans-serif;
+    background: rgb(75, 80, 84);
+    color: rgb(18, 18, 17);
+    min-height: 100vh;
+}
+.row{
+    margin: 0;
+    min-height: 100vh;
+}
+.col-3{
+    padding: 0 !important;
+
+}
+
+.sidebar{
+    min-height: 100vh;
+    position: sticky;
+    flex-direction: column;
+    top: 0;
+    text-decoration: none;
+}
+
+.sidebar h2{
+    color: bisque;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 24px 20px 20px;
+    border-bottom: 1px solid groove;
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+}
+.sidebar > div{
+    border-left: 3px solid transparent;
+
+}
+
+.sidebar a{
+    display: block;
+    padding: 12px 20px;
+    color: bisque;
+    text-decoration: none;
+    font-size: 13.5px;
+    font-weight: 500;
+    transition: color 0.15s;
+}
+
+.sidebar a:hover{
+    color: brown;
+}
+
+.col-9{
+    padding: 0 !important;
+    background: bisque;
+
+}
+.header{
+    background: gray;
+    border-bottom: 1px solid brown;
+    padding: 0 !important;
+    min-height: 54px;
+
+
+}
+.metrics{
+    display: flex;
+    gap: 16px;
+    padding: 24px 24px 0;
+    /* flex-wrap: wrap; */
+}
+.metric-card{
+    background: white;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 18px 20px;
+    flex: 1;
+    min-width: 160px;
+}
+
+.metric-card h3{
+    font-size: 12px;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+
+}
+ .metric-card p{
+    font-size: 12px;
+    color: black;
+    margin: 0;
+ }
+ .metric-card strong{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 4px;
+
+ }
+ .section{
+    background: bisque;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 20px 22px;
+    margin: 20px;
+ }
+
+ .section{
+    background: white;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 20px 22px;
+    margin: 20px 24px 0;
+
+ }
+ .section h2{
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 14px;
+
+
+
+ }
+
+ .section h3{
+    font-size: 13.5px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 14px;
+ }
+
+ .charts{
+    background: whitesmoke;
+    border: 1px dashed grey;
+    border-radius: 8px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    font-size: 13px;
+ }
+ .placeholder{
+    background: whitesmoke;
+    border: 1px dashed grey;
+    border-radius: 8px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 13px;
+ }
+ .section > .metric-card{
+    background: whitesmoke;
+    border: 1px solid burlywood;
+    border-radius: 8px;
+    flex: unset;
+    min-width: unset;
+    width: 100%;
+    margin: 0;
+      
+
+
+ }
+ 

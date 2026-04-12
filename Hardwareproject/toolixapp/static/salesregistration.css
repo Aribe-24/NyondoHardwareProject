@@ -1,0 +1,108 @@
+ body {
+      margin: 0;
+      padding: 0;
+      background-color: white;
+    }
+    .container {
+      width: 100%;
+      height: 800px;
+      display: flex;
+      gap: 10px;
+      
+    }
+    .sidebar {
+    
+      flex: 1;
+      border-width: 1px;
+      border-color: black;
+      border-style: solid;
+      border: solid 1px;
+      text-align: center;
+      height: 1000px;
+
+    }
+
+    .sidebar a{
+      text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    display: block;
+    gap: 10px;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 2px;
+
+
+    }
+    .content {
+      flex: 3;
+      border: 1px solid black;
+      padding: 20px;
+      height: 900px;
+      border-radius: 10px;
+
+    }
+
+    .input-container{
+        display: flex;
+        column-gap: 5px;
+
+    }
+    .input-section{
+        display: flex;
+        flex-direction: column;
+        flex: 2;
+
+    
+    }
+    input,select{
+      height: 80px;
+      margin: 10px;
+      background-color: lightgray;
+      border: 10px;
+      border-radius: 15px;
+
+  
+  
+    }
+    h1,h2{
+      text-align: center;
+    }
+  
+    .final{
+      justify-content: space-between;
+      display: flex;
+      padding: 20px;
+    }
+    .can{
+      padding: 15px;
+      width: 150px;
+      height: 50px;
+      color: black;
+      font-weight: bold;
+      border-radius: 10px;
+
+    }
+    .chin{
+      background-color: gray;
+      padding: 15px;
+      width: 150px;
+      height: 50px;
+      color: white;
+      font-weight: bold;
+      border-radius: 10px;
+    }
+    .Jojo{
+      display: flex;
+      padding: 20px;
+    }
+    .picture{
+      border: 2px solid black;
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background-color: aliceblue;
+      margin-right: 20px;
+      overflow: hidden;
+      object-fit: cover;
+    }

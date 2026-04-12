@@ -1,0 +1,21 @@
+a{
+ display: block;
+padding: 10px;
+border: 1px solid;
+border-radius: 2px;
+background-color: antiquewhite;
+color: black;
+font-weight: bold;
+margin: 5px;   
+ }
+ a:hover{
+  background-color: darkcyan;
+
+ }
+ .box{
+  border: 2px;
+  padding: 20px;
+ }
+ .link a {
+    text-decoration: none;
+ }
